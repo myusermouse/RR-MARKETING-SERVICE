@@ -1,0 +1,71 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    user-select: none;
+    -webkit-user-drag: none;
+}
+img{
+    width: 50px;
+}
+
+
+/***** Start *****/
+header{
+    /*background: linear-gradient(180deg,#034694,#0E3386);
+    */
+}
+.nav{
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 5px;
+}
+li{
+    list-style: none;
+}
+a{
+    color: #000;
+    text-decoration: none;
+    font-family: 'Fira Sans',sans-serif;
+}
+.logo{
+    width: 40px;
+}
+.nav-right{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 30px;
+    margin-bottom: 5px;
+}
+.alert{
+    font-size: 0.7em;
+    color: red;
+    font-weight: bold;
+}
+.main-content{
+    padding: 10px;
+}
+.marketing-gif{
+    width: 100%;
+    max-width: 500px;
+}
+.start-title{
+    width: 100%;
+    max-width: 500px;
+    display: flex;
+    align-items: center;
+    justify-content: left;
+    gap: 10px;
+    font-family: 'Nunito Sans',sans-serif;
+}
+.print-text{
+    color: #3AD4B8;
+}
+.description{
+    max-width: 600px;
+    margin-top: 10px;
+    font-family:'Nunito Sans',Courier Prime, sans-serif;
+}
