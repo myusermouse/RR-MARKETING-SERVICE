@@ -11,7 +11,22 @@ img{
 
 
 /***** Start *****/
+:root{
+    --main-backG-color: #fff;
+    --main-font-color: 000;
+}
+
+
+body{
+    /* background: linear-gradient(80deg, #8FEFD9, #D488CC); */
+    background: ;
+}
 header{
+    width: 100%;
+    position: fixed;
+    top: 0;
+    left: 0;
+    z-index: 100;
     /*background: linear-gradient(180deg,#034694,#0E3386);
     */
 }
@@ -25,7 +40,8 @@ header{
 li{
     list-style: none;
 }
-a{
+a{  
+    display: block;
     color: #000;
     text-decoration: none;
     font-family: 'Fira Sans',sans-serif;
@@ -40,12 +56,47 @@ a{
     gap: 30px;
     margin-bottom: 5px;
 }
+.dod{
+    font-size: 1.5em;
+    transform: rotate(90deg);
+    margin-right: 5px;
+}
+.dod-click{
+    position: absolute;
+    top: 40px;
+    right: 10px;
+    background: var(--main-backG-color);
+    padding: 5px;
+    box-shadow: 0 0 5px rgba(0, 0, 0, 0.5);
+    border-radius: 10px;
+    width: 140px;
+    height: 0px
+    max-height: 95px;
+    display: none;
+    transition: all 0.4s;
+}
+.show-popup{
+    display: block;
+    height: 100px;
+}
+.sett-op li{
+    width: 100%;
+    padding: 5px;
+}
+
+
+
 .alert{
     font-size: 0.7em;
     color: red;
     font-weight: bold;
+    margin-top: 50px;
 }
 .main-content{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    flex-wrap: wrap;
     padding: 10px;
 }
 .marketing-gif{
@@ -68,4 +119,20 @@ a{
     max-width: 600px;
     margin-top: 10px;
     font-family:'Nunito Sans',Courier Prime, sans-serif;
+}
+.our-service{
+    width: 100%;
+    margin-top: 100px;
+}
+.service{
+    margin-top: 20px;
+    text-align: center;
+}
+.card{
+    width: 100%;
+    max-width: 500px;
+}
+.email-marketing{
+    width: 100%;
+    max-width: 400px;
 }
