@@ -120,19 +120,77 @@ a{
     margin-top: 10px;
     font-family:'Nunito Sans',Courier Prime, sans-serif;
 }
+.service{
+    margin-top: 100px;
+    text-align: center;
+    background: #2AFF74;
+}
 .our-service{
     width: 100%;
-    margin-top: 100px;
-}
-.service{
     margin-top: 20px;
-    text-align: center;
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    flex-wrap: wrap;
+    gap: 10px;
 }
 .card{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding: 5px;
+    box-shadow: 0 0 5px rgba(0, 0, 0, 0.5);
+    border-radius: 10px;
+}
+.card-content{
     width: 100%;
     max-width: 500px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-wrap: wrap;
+    background: #A9EA9A;
+    padding: 5px;
+    border-radius:10px;
 }
-.email-marketing{
+.marketing-im{
     width: 100%;
     max-width: 400px;
+    border-radius: 10px;
+    margin-top: 5px;
+}
+.card-content .card-title{
+    font-size:1.5em;
+    width: 100%;
+    align-items: left;
+    padding: 5px 0;
+    font-family: sans-serif;
+}
+.card-description{
+    width: 100%;
+    align-items: left;
+    font-family: 'sans-serif';
+}
+.card-content .card-btn{
+    width: 150px;
+    height: 35px;
+    border-radius: 20px;
+    border: none;
+    outline: none;
+    cursor: pointer;
+    font-family: sans-serif;
+    background: #EADC9A;
+    box-shadow: 0 0 5px rgba(0, 0, 0, 0.5);
+    margin: 15px 0 5px 0;
+}
+
+/*.... Review.... */
+
+.review{
+    margin-top: 10px;
+}
+.review-title{
+    width: 100%;
+    text-align: center;
+    background: #FFFC2A;
 }
