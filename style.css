@@ -118,6 +118,7 @@ a{
 .description{
     max-width: 600px;
     margin-top: 10px;
+    text-align: justify;
     font-family:'Nunito Sans',Courier Prime, sans-serif;
 }
 .service{
@@ -168,7 +169,7 @@ a{
 }
 .card-description{
     width: 100%;
-    align-items: left;
+    text-align: justify;
     font-family: 'sans-serif';
 }
 .card-content .card-btn{
